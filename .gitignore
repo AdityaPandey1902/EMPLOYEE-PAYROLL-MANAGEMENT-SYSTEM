@@ -1,0 +1,64 @@
+﻿# ===========================
+# GENERAL
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ===========================
+# NODE
+# ===========================
+# Ignore all node_modules everywhere (root, server, client)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ===========================
+# ENVIRONMENT VARIABLES
+# ===========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===========================
+# BUILD OUTPUTS
+# ===========================
+dist/
+build/
+.cache/
+coverage/
+.vscode/
+.idea/
+*.tgz
+
+# ===========================
+# SERVER TEMP FILES
+# ===========================
+server/uploads/
+server/payslip.pdf
+server/*.csv
+
+# Puppeteer Chromium cache
+server/.local-chromium/
+server/.cache/
+
+# ===========================
+# CLIENT (Vite + React)
+# ===========================
+client/dist/
+client/.vite/
+client/.DS_Store
+client/npm-debug.log*
+
+# ===========================
+# MISC
+# ===========================
+*.zip
+*.tar.gz
