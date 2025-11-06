@@ -41,15 +41,15 @@ Supports multiple roles: Admin, HR, Manager, Employee.
 Fast React frontend (Vite) with responsive layout and intuitive design.
 
 🛠️ Tech Stack
-Layer	Technology
-Frontend	React.js (Vite), Axios, Tailwind CSS
-Backend	Node.js, Express.js
-Database	MongoDB with Mongoose
-Authentication	JWT + bcrypt.js
-PDF Generation	Puppeteer
-File Handling	Multer + CSV Parser
-⚙️ Installation & Setup
-🧱 Prerequisites
+| Layer          | Technology                           |
+| -------------- | ------------------------------------ |
+| Frontend       | React.js (Vite), Axios, Tailwind CSS |
+| Backend        | Node.js, Express.js                  |
+| Database       | MongoDB with Mongoose                |
+| Authentication | JWT + bcrypt.js                      |
+| PDF Generation | Puppeteer                            |
+| File Handling  | Multer + CSV Parser                  |
+
 
 *Make sure you have installed:
 Node.js(v18+)
